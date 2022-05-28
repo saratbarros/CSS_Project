@@ -1,0 +1,184 @@
+@font-face {
+    font-family: "Roboto Light";
+    src: url("../fonts/Roboto-Light.ttf");
+}
+@font-face {
+    font-family: "Roboto Regular";
+    src: url("../fonts/Roboto-Regular.ttf");
+}
+@font-face {
+    font-family: "Roboto Extra Bold";
+    src: url("../fonts/Roboto-Black.ttf");
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto Light";
+    margin: 0 auto;
+    font-size: 18px;
+    color: #F9FAF8;
+}
+
+header, footer {
+    background-color: #1F2937;
+}
+
+.wrap {
+    margin: 0 200px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+header h1 {
+    font-family: "Roboto Regular";
+    font-size: 24px;
+    margin: 0;
+    padding-top: 15px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+nav a {
+    text-decoration: none;
+    color: #F9FAF8;
+    margin-right: 30px;
+}
+
+nav li:last-child a {
+    margin-right: 0;
+}
+
+.feature {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+    padding-bottom: 140px;
+}
+
+.message {
+    margin: 0;
+}
+
+h2 {
+    font-family: "Roboto Extra Bold";
+    font-size: 48px;
+    width: 330px;
+    margin: 0;
+}
+
+.message p {
+    margin: 0 75px 10px 0;
+}
+
+button {
+    font-family:"Roboto Regular";
+    font-size: 16px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 8px;
+    padding: 5px 35px;
+}
+
+.message button {
+    border: 2px solid #3882F6;
+}
+
+.rectangle {
+    background-color: #797c81;
+    height: 250px; 
+    flex-basis: 100%;
+}
+
+.rectangle p {
+    text-align: center;
+    padding-top: 95px;
+}
+
+h3 {
+    font-family: "Roboto Extra Bold";
+    font-size: 36px;
+    color: #1F2937;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 330px 110px;
+}
+
+#card {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#card p {
+    color: #1F2937;
+    text-align: center;
+    margin: 0;
+    padding: 5px 24px;
+}
+
+.square {
+    width: 175px;
+    height: 175px;
+    background-color: #fff;
+    border: 3px solid #3882F6;
+    border-radius: 15px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    padding: 80px 360px;
+}
+
+blockquote {
+    margin: 0;
+    font-style: italic;
+    font-size: 36px;
+}
+
+#nametag {
+    font-family:"Roboto Extra Bold";
+    text-align: right;
+    margin-right: 40px;
+}
+
+section {
+    background-color: #3882F6;
+    margin: 95px 200px;
+    padding: 20px 0px;
+    border-radius: 8px;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+strong {
+    font-size: 24px;
+}
+
+#cta {
+    border: 2px solid #F9FAF8;
+}
+
+footer {
+    padding: 1px 0;
+    text-align: center;
+}
