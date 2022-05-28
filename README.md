@@ -1,2 +1,2 @@
 # CSS_Project
- Link to the webiste: https://saratbarros.github.io/CSS_Project/
+ Link to the website: https://saratbarros.github.io/CSS_Project/
